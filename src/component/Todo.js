@@ -47,10 +47,10 @@ function Todo({ todo, isRemove, isUpdate }) {
           <h4 className="textTodo">{task}</h4>
           <div className="button">
             <button id={todo.id} className="toggle" onClick={toggle}>
-              <i className="image-toggle" alt="hi" />
+              <div className="image-toggle"></div> 
             </button>
             <button id={todo.id} className="remove" onClick={onRemove}>
-              <i className="image-remove" alt="hi" />
+              <div className="image-remove"></div>
             </button>
           </div>
         </div>
