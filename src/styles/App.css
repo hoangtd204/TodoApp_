@@ -1,0 +1,13 @@
+.todo {
+  width: 50vh;
+  background-color: #99ffff;
+  margin-left: 40%;
+  justify-items: center;
+  margin-top: 30vh;
+}
+
+.App {
+  display: flex;
+  background-image: url("https://treobangron.com.vn/wp-content/uploads/2022/09/background-dep-4-2.jpg");
+  height: 100vh;
+}

@@ -1,0 +1,83 @@
+.todo-list {
+  width: 90%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+
+.todo-list-true {
+  display: flex;
+  justify-content: center;
+}
+
+.textTodo {
+  width: 50%;
+  position: relative;
+  margin-left: 1rem;
+}
+
+.button {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.toggle {
+  border: 1px solid lightblue;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 0.3rem;
+}
+
+.remove {
+  border: 1px solid lightblue;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 0.3rem;
+  margin-left: 1rem;
+}
+
+.buttonSave {
+  border: 1px solid lightblue;
+  width: 6vh;
+  height: 5vh;
+  border-radius: 0.3rem;
+  margin-left: 1rem;
+}
+
+.inputSave {
+  height: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid rgb(55, 118, 139);
+}
+
+.inputSave:focus {
+  outline: 1px solid lightblue;
+}
+
+.Todo-edit-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Todo {
+  width: 90%;
+  background-color: lightblue;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 10px 5px 0;
+}
+
+/* .image-toggle{
+background-image: url('');
+}
+
+.image-remove{
+
+} */

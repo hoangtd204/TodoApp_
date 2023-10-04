@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.input-todo {
+  height: 2rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  border: 1px solid lightblue;
+}
+
+.button-add {
+  height: 2rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  border: 1px solid lightblue;
+  margin-left: 5px;
+}
